@@ -19,7 +19,7 @@ const START_SNEAKERS: Sneaker[] = [
     condition: 'Deadstock',
     status: SneakerStatus.NEW_ARRIVALS,
     imageUrl: 'https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_20547cf0-313d-492e-841b-19bc12ed1281_3840x.jpg?=75&v=1717156718',
-    notes: 'Real 2022 release, Chicago colorway, style code DZ5485-612.',
+    notes: 'Real 2022 release, Chicago colorway.',
     createdAt: new Date(Date.now() - 3 * 24 * 3600 * 1000).toISOString()
   },
   {
@@ -32,7 +32,7 @@ const START_SNEAKERS: Sneaker[] = [
     condition: 'Like New',
     status: SneakerStatus.PROCESSING,
     imageUrl: 'https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_4eec2627-0772-4ac4-9387-c7f3d688dc7b_1920x.png?=75&v=1706615044',
-    notes: 'Real Yeezy 350 V2 Zebra, style code CP9654.',
+    notes: 'Real Yeezy 350 V2 Zebra.',
     createdAt: new Date(Date.now() - 2 * 24 * 3600 * 1000).toISOString()
   },
   {
