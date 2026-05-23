@@ -13,7 +13,7 @@ const BRAND_PRESETS = ['Nike', 'Jordan', 'Adidas', 'Yeezy', 'New Balance', 'Asic
 const CONDITION_PRESETS = ['Deadstock', 'Like New', 'Very Good', 'Used'];
 const SIZE_PRESETS = ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47'];
 
-const DEFAULT_PHOTO_URL = 'https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500';
+const DEFAULT_PHOTO_URL = 'https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_20547cf0-313d-492e-841b-19bc12ed1281_3840x.jpg?=75&v=1717156718';
 
 export const SneakerFormModal: React.FC<SneakerFormModalProps> = ({
   isOpen,

@@ -6,7 +6,7 @@ import { SneakerCard } from './components/SneakerCard';
 import { SneakerFormModal } from './components/SneakerFormModal';
 import { KanbanColumn, Sneaker, SneakerStatus } from './types';
 
-const STORAGE_KEY = 'sneaker_lanes_inventory_v2';
+const STORAGE_KEY = 'sneaker_lanes_inventory_v3';
 
 const START_SNEAKERS: Sneaker[] = [
   {
@@ -18,7 +18,7 @@ const START_SNEAKERS: Sneaker[] = [
     sku: 'DZ5485-612',
     condition: 'Deadstock',
     status: SneakerStatus.NEW_ARRIVALS,
-    imageUrl: 'https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500',
+    imageUrl: 'https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_20547cf0-313d-492e-841b-19bc12ed1281_3840x.jpg?=75&v=1717156718',
     notes: 'Real 2022 release, Chicago colorway, style code DZ5485-612.',
     createdAt: new Date(Date.now() - 3 * 24 * 3600 * 1000).toISOString()
   },
@@ -44,7 +44,7 @@ const START_SNEAKERS: Sneaker[] = [
     sku: 'M990GL5',
     condition: 'Deadstock',
     status: SneakerStatus.NEW_ARRIVALS,
-    imageUrl: 'https://images.stockx.com/images/New-Balance-990v5-Made-In-USA-Grey-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500',
+    imageUrl: 'https://nb.scene7.com/is/image/NB/m990gl5_nb_02_i?wid=700&hei=500&fmt=webp',
     notes: 'Real Made in USA 990v5, style code M990GL5.',
     createdAt: new Date(Date.now() - 1 * 24 * 3600 * 1000).toISOString()
   },
@@ -57,7 +57,7 @@ const START_SNEAKERS: Sneaker[] = [
     sku: 'DD1391-100',
     condition: 'Very Good',
     status: SneakerStatus.PROCESSING,
-    imageUrl: 'https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-2021-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500',
+    imageUrl: 'https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_192c7990-55c2-4b16-880f-7935c8eb1ef6_3840x.jpg?=75&v=1772245888',
     notes: 'Real Dunk Low Panda, style code DD1391-100.',
     createdAt: new Date(Date.now() - 5 * 24 * 3600 * 1000).toISOString()
   },
@@ -70,7 +70,7 @@ const START_SNEAKERS: Sneaker[] = [
     sku: 'DM7866-162',
     condition: 'Deadstock',
     status: SneakerStatus.SOLD,
-    imageUrl: 'https://images.stockx.com/images/Jordan-1-Retro-Low-OG-SP-Travis-Scott-Reverse-Mocha-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500',
+    imageUrl: 'https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_96eedf7f-248d-418b-bd74-167c8e25681c_3840x.jpg?=75&v=1708354662',
     notes: 'Real Travis Scott AJ1 Low, style code DM7866-162.',
     createdAt: new Date(Date.now() - 6 * 24 * 3600 * 1000).toISOString(),
     soldAt: new Date(Date.now() - 12 * 3600 * 1000).toISOString()
@@ -233,7 +233,7 @@ export default function App() {
               KC
             </div>
             <div>
-              <h1 className="font-bold text-lg text-gray-900">Kicks control</h1>
+              <h1 className="font-bold text-lg text-gray-900">Kanban</h1>
               <p className="text-gray-500 text-xs">Sneaker resale inventory</p>
             </div>
           </div>
@@ -447,7 +447,7 @@ export default function App() {
 
       <footer className="border-t border-gray-300 bg-white text-xs py-5 text-gray-500 text-center mt-12">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-[11px]">Kicks control, 2026</p>
+          <p className="text-[11px]">Kanban, 2026</p>
           <div className="flex items-center gap-4 text-[10px]">
             <span>Data is saved in this browser</span>
             <span className="text-gray-300">|</span>
