@@ -1,0 +1,6 @@
+{
+  "name": "Sneaker Marketplace Kanban",
+  "description": "A professional Kanban board to manage sneaker inventory across New arrivals, Processing, and Sold stages with full CRUD operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
