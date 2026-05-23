@@ -45,7 +45,7 @@ const START_SNEAKERS: Sneaker[] = [
     condition: 'Deadstock',
     status: SneakerStatus.NEW_ARRIVALS,
     imageUrl: 'https://nb.scene7.com/is/image/NB/m990gl5_nb_02_i?wid=700&hei=500&fmt=webp',
-    notes: 'Real Made in USA 990v5, style code M990GL5.',
+    notes: 'Real Made in USA 990v5.',
     createdAt: new Date(Date.now() - 1 * 24 * 3600 * 1000).toISOString()
   },
   {
@@ -58,7 +58,7 @@ const START_SNEAKERS: Sneaker[] = [
     condition: 'Very Good',
     status: SneakerStatus.PROCESSING,
     imageUrl: 'https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_192c7990-55c2-4b16-880f-7935c8eb1ef6_3840x.jpg?=75&v=1772245888',
-    notes: 'Real Dunk Low Panda, style code DD1391-100.',
+    notes: 'Real Dunk Low Panda.',
     createdAt: new Date(Date.now() - 5 * 24 * 3600 * 1000).toISOString()
   },
   {
@@ -71,7 +71,7 @@ const START_SNEAKERS: Sneaker[] = [
     condition: 'Deadstock',
     status: SneakerStatus.SOLD,
     imageUrl: 'https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_96eedf7f-248d-418b-bd74-167c8e25681c_3840x.jpg?=75&v=1708354662',
-    notes: 'Real Travis Scott AJ1 Low, style code DM7866-162.',
+    notes: 'Real Travis Scott AJ1 Low.',
     createdAt: new Date(Date.now() - 6 * 24 * 3600 * 1000).toISOString(),
     soldAt: new Date(Date.now() - 12 * 3600 * 1000).toISOString()
   }
