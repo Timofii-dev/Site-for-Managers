@@ -23,5 +23,5 @@ Site for Managers is a sneaker inventory board for tracking pairs from arrival t
 - Tailwind CSS
 - Motion
 - Lucide React icons
-- GitHub Actions
 - GitHub Pages
+- gh-pages
