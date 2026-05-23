@@ -1,39 +1,27 @@
 # Site for Managers
 
-A small sneaker resale inventory board built with React, Vite, Tailwind CSS, and localStorage.
+Site for Managers is a sneaker inventory board for tracking pairs from arrival to sale.
 
-## Features
+## Functionality
 
-- Kanban-style columns for new, in-progress, and sold pairs
-- Add, edit, delete, move, filter, and sort sneakers
-- Real starter sneaker names, style codes, and product images
-- Data saved locally in the browser
+- View sneakers in three columns: New, In Progress, and Sold
+- Add new sneaker pairs with model, brand, SKU, size, price, condition, photo URL, and notes
+- Edit existing sneaker information
+- Delete sneaker cards
+- Move sneakers between columns with buttons or drag and drop
+- Search by model, brand, or SKU
+- Filter by brand and size
+- Sort by newest, highest price, or lowest price
+- See summary stats for total pairs, stock value, sales, and average price
+- Save all data locally in the browser with localStorage
 
-## Local Development
+## Technologies
 
-```bash
-npm install
-npm run dev
-```
-
-The app runs at `http://localhost:3000`.
-
-## Build
-
-```bash
-npm run lint
-npm run build
-```
-
-## GitHub Pages
-
-This project includes a GitHub Actions workflow that builds the app and publishes the `dist` folder to GitHub Pages.
-
-After pushing to GitHub:
-
-1. Open the repository settings.
-2. Go to **Pages**.
-3. Set **Source** to **GitHub Actions**.
-4. Push to the `main` branch.
-
-The Vite base path is configured for a repository named `Site-for-Managers`. If the repository name changes, update `repoName` in `vite.config.ts`.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Motion
+- Lucide React icons
+- GitHub Actions
+- GitHub Pages
